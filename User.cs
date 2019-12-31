@@ -35,18 +35,6 @@ namespace NotesApp.Model
 			}
 		}
 
-		private string lastname;
-
-		public string Lastname
-		{
-			get { return lastname; }
-			set
-			{
-				lastname = value;
-				OnPropertyChanged("Lastname");
-			}
-		}
-
 		private string username;
 
 		public string Username
